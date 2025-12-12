@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joan Paulo | Desenvolvedor Front-end Jr</title>
+
+    <meta name="description"
+        content="Desenvolvedor Front-end Jr focado em criar experiências modernas, responsivas e com foco em resultado." />
+    <meta name="author" content="João Paulo" />
+
+    <!-- Open Graph para compartilhar no LinkedIn / WhatsApp -->
+    <meta property="og:title" content="Joan Paulo | Desenvolvedor Front-end Jr" />
+    <meta property="og:description" content="Portfólio com projetos reais, landing pages e interfaces modernas." />
+    <meta property="og:type" content="website" />
+    <!-- Se tiver uma imagem de capa, coloca a URL aqui -->
+    <!-- <meta property="og:image" content="https://seu-dominio.com/capa.png" /> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__content">
+            <a href="#inicio" class="logo">JP<span>.</span></a>
+
+            <nav class="nav" id="nav">
+                <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <ul class="nav__list" id="navList">
+                    <li><a href="#inicio" class="nav__link active">Início</a></li>
+                    <li><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li><a href="#projetos" class="nav__link">Projetos</a></li>
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <div class="container hero__grid">
+                <div class="hero__content reveal">
+                    <p class="hero__badge">Disponível para oportunidades</p>
+                    <h1>Desenvolvedor Front-end Jr focado em criar experiências modernas.</h1>
+                    <p class="hero__subtitle">
+                        Ajudo empresas e profissionais a transformarem ideias em interfaces rápidas, responsivas e com
+                        foco em resultado.
+                    </p>
+
+                    <div class="hero__buttons">
+                        <a href="#contato" class="btn btn--primary">Falar comigo</a>
+                        <a href="#projetos" class="btn btn--ghost">Ver meus projetos</a>
+                    </div>
+
+                    <div class="hero__tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Landing Pages</span>
+                        <span>Portfólios</span>
+                    </div>
+                </div>
+
+                <aside class="hero__highlight reveal delay-1">
+                    <h2>+ Projetos publicados em produção</h2>
+                    <ul>
+                        <li><strong>Landing romântica</strong> com música e animações</li>
+                        <li>Interface moderna com animações suaves</li>
+                        <li>Hospedagem em GitHub Pages</li>
+                    </ul>
+                    <a href="https://github.com/Joan606" target="_blank" class="hero__link">
+                        Ver perfil no GitHub →
+                    </a>
+                </aside>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="section section--light">
+            <div class="container">
+                <header class="section__header reveal">
+                    <h2>Como posso te ajudar</h2>
+                    <p>Serviços que eu já consigo entregar com qualidade.</p>
+                </header>
+
+                <div class="cards-grid">
+                    <article class="card reveal">
+                        <h3>Landing pages de alta conversão</h3>
+                        <p>
+                            Páginas focadas em objetivo: gerar contatos, vender um serviço ou apresentar um produto de
+                            forma clara e profissional.
+                        </p>
+                    </article>
+
+                    <article class="card reveal delay-1">
+                        <h3>Portfólios e páginas pessoais</h3>
+                        <p>
+                            Sites modernos para apresentar sua carreira, seus projetos e facilitar o contato com
+                            recrutadores ou clientes.
+                        </p>
+                    </article>
+
+                    <article class="card reveal delay-2">
+                        <h3>Interfaces responsivas</h3>
+                        <p>
+                            Layouts que funcionam bem no celular, tablet e computador, com desempenho e boa experiência
+                            de uso.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <header class="section__header reveal">
+                    <h2>Projetos em destaque</h2>
+                    <p>Alguns trabalhos que mostram meu estilo e minha evolução.</p>
+                </header>
+
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <article class="project-card reveal">
+                        <div class="project-card__tag">Landing Page</div>
+                        <h3>Landing romântica com música e animações</h3>
+                        <p>
+                            Página especial criada para surpreender, com trilha sonora, contagem de dias juntos e
+                            animações de corações.
+                        </p>
+                        <ul class="project-card__stack">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-card__actions">
+                            <a href="https://joan606.github.io/Para-Voc-/entrada.html" target="_blank"
+                                class="btn btn--small">
+                                Ver projeto
+                            </a>
+                            <a href="https://github.com/Joan606/Para-Voc-" target="_blank" class="link">
+                                Código no GitHub
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 2 -->
+                    <article class="project-card reveal delay-1">
+                        <div class="project-card__tag">Portfólio</div>
+                        <h3>Portfólio profissional como Dev Front-end Jr</h3>
+                        <p>
+                            Página para apresentar meus serviços, principais projetos e facilitar o contato com
+                            recrutadores e parceiros.
+                        </p>
+                        <ul class="project-card__stack">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <div class="project-card__actions">
+                            <a href="#inicio" class="btn btn--small">
+                                Ver esta página
+                            </a>
+                            <a href="https://github.com/Joan606" target="_blank" class="link">
+                                Ver repositórios
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 3 (placeholder que você pode trocar depois) -->
+                    <article class="project-card reveal delay-2">
+                        <div class="project-card__tag">Interface</div>
+                        <h3>Dashboard simples com foco em visual</h3>
+                        <p>
+                            Layout com cards e gráficos estáticos para estudo de UI, pensado em dados de vendas e
+                            performance.
+                        </p>
+                        <ul class="project-card__stack">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS (em breve)</li>
+                        </ul>
+                        <div class="project-card__actions">
+                            <a href="#" class="btn btn--small btn--disabled" aria-disabled="true">
+                                Em breve
+                            </a>
+                            <span class="link link--muted">Protótipo em desenvolvimento</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section section--light">
+            <div class="container about">
+                <div class="about__text reveal">
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Sou Joan Paulo, Desenvolvedor Front-end Jr com foco em criar interfaces modernas, funcionais e
+                        com boa experiência de uso.
+                    </p>
+                    <p>
+                        Tenho experiência prática construindo landing pages, páginas pessoais e interfaces responsivas
+                        utilizando
+                        <strong>HTML, CSS e JavaScript</strong>, publicando projetos reais em produção usando
+                        <strong>GitHub Pages</strong>.
+                    </p>
+                    <p>
+                        Estou em constante evolução, estudando JavaScript e boas práticas de desenvolvimento para me
+                        consolidar no mercado
+                        e contribuir em times de tecnologia.
+                    </p>
+                </div>
+
+                <aside class="about__info reveal delay-1">
+                    <h3>Disponibilidade</h3>
+                    <ul>
+                        <li>✅ Abertura para vagas Jr, estágio e freelance</li>
+                        <li>🌎 Preferência por remoto ou híbrido</li>
+                        <li>💼 Foco em Front-end / Web</li>
+                    </ul>
+
+                    <h3>Principais habilidades</h3>
+                    <div class="chips">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript (em evolução)</span>
+                        <span>Git & GitHub</span>
+                        <span>Responsividade</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section">
+            <div class="container contact">
+                <header class="section__header reveal">
+                    <h2>Vamos conversar?</h2>
+                    <p>Me chama para falarmos sobre vagas, projetos ou parcerias.</p>
+                </header>
+
+                <div class="contact__grid">
+                    <div class="contact__actions reveal">
+                        <!-- WHATSAPP -->
+                        <a class="btn btn--primary btn--full"
+                            href="https://wa.me/557499331110?text=Ol%C3%A1%2C%20Joan%2C%20vi%20seu%20portf%C3%B3lio%20e%20queria%20conversar."
+                            target="_blank" rel="noopener noreferrer">
+                            Falar no WhatsApp
+                        </a>
+
+                        <!-- EMAIL -->
+                        <a class="btn btn--ghost btn--full"
+                            href="mailto:paulolopesirece@gmail.com?subject=Contato%20-%20Portf%C3%B3lio%20Jo%C3%A3o%20Paulo">
+                            Enviar e-mail
+                        </a>
+                    </div>
+
+                    <div class="contact__social reveal delay-1">
+                        <p>Ou, se preferir, me encontra aqui:</p>
+                        <div class="social-links">
+                            <a href="https://github.com/Joan606" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://www.linkedin.com/in/joan-paulo-26b1b7393" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>
+                <span id="year"></span> © Joan Paulo — Desenvolvedor Front-end Jr.
+            </p>
+            <p class="footer__small">
+                Feito com HTML, CSS e JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
